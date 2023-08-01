@@ -1,0 +1,336 @@
+/*****COMMON CSS SECTION*****/
+/* Default styles for the body */
+body {
+  font-size: 16px; /* Default font size for the body */
+  /* Your default styles go here */
+}
+
+/* Media query for mobile devices (up to 767 pixels wide) */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px; 
+    padding: 10px;
+  }
+}
+
+  * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+	font-family Roboto, sans-serif, arial;
+}
+html, body 
+	{
+	font-size: 14px;
+	font-weight: 400;
+	background: black;
+	color: white;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+.width-33 {
+	width: 50%;
+	float: left;
+}
+.width-66 {
+	width: 66%;
+	float: right;
+}
+/*****MENU SECTION*****/
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.span-col {
+	color: #BFACE2;
+}
+.span-coll{
+        font-size:18px;
+        color:white;
+}
+nav {
+	float: right;
+        margin-top:-30px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 20px;
+	color: white;
+}
+nav a:hover{
+color:#BFACE2;
+}
+/*****Main BANNER*****/
+.width-50 {
+	float: left;
+	width: 50%;
+}
+.banner-section {
+	width: 100%;
+	float: left;
+	margin-top: 25vh;
+}
+.banner-section h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.banner-section h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.banner-section a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid #BFACE2;
+	color: white;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+.banner-section a:hover{
+color:#BFACE2;
+border:2px solid white;
+}
+/*****Main BANNER IMAGE*****/
+.main-panel img {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+}
+/*ABOUT US SECTION*/
+.main-section {
+        background-color:white;
+	width: 100%;
+	float: left;
+	padding: 20px 0px 10px 0px;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: black;
+}
+.about-img {
+	width: 100%;
+	padding: 0px 50px;
+	margin-top: 20px;
+}
+.about-us {
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+.about-us p {
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 27px;
+        color:black;
+}
+.about-us h3{
+color:black;
+}
+table {
+	width: 100%;
+}
+table th,
+table td {
+	font-size: 16px;
+	text-align: left;
+	padding: 5px 0px;
+        color:black;
+        margin-bottom:50px;
+}
+table th{
+color:purple;
+}
+/*****SKILL SECTION*****/
+.main-sectionn{
+padding:50px 0px 50px 0px;
+background-color:black;
+color:#BFACE2;
+}
+.heading-textt{
+padding:50px 0px 50px 0px;
+color:white;
+font-size: 35px;
+text-align: center;
+}
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: white;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #ffbf35;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color: white;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	;
+	height: 100px;
+	;
+	border-radius: 50%;
+
+	place-items: center;
+	display: grid;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#BFACE2 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+
+}
+/*****EXPERIENCE SECTION*****/
+.bg-lightgrey {
+	background-color: #1a1a1a;
+}
+.edu-exp {
+	width: 48%;
+	margin: 1%;
+	float: left;
+	padding-left: 10px;
+}
+.experience-list {
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+	background: #262626;
+	margin-bottom: 20px;
+}
+.experience-list a{
+color:#BFACE2;
+text-decoration:none;
+}
+.experience-content {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.experience-content h2 {
+
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.experience-content h3 {
+	color: #BFACE2;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.experience-content p {
+	font-size: 15px;
+}
+/*SERVICE SECTION*/
+.service-list {
+	padding: 40px;
+	margin-top: 35px;
+	background: #262626;
+	border-radius: 15px;
+	width: 94%;
+	float: left;
+}
+
+.service-list i {
+	font-size: 50px;
+	color: #ffbf35;
+	width: 70px;
+	float: left;
+}
+
+.service-list h3 {
+	font-size: 28px;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+
+.service-list p {
+	font-size: 15px;
+	line-height: 25px;
+color:white;
+}
+/*PORTFOLIO SECTION*/
+.gallery {
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+.gallery img {
+	height: auto;
+	width: 95%;
+	margin-bottom: 20px;
+}
+/*****FOOTER SECTION*****/
+.footer {
+	background-color: #202020;
+	padding: 30px 0px 40px 0px;
+	width: 100%;
+	float: left;
+}
+.footer-sect {
+	color: #BFACE2;
+}
+.footer-sect a {
+	color: #BFACE2;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+}
+.social-icon a i {
+	width: 50px;
+	height: 50px;
+	border: 2px solid #BFACE2;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 50%;
+}
