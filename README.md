@@ -24,10 +24,10 @@ Description:
 
 Technologies Used:
 
-HTML: The backbone of the website, providing the structure and content for each page.
-CSS: Used for styling and layout, ensuring a visually appealing and responsive design.
-JavaScript: Adding interactivity and dynamic elements, elevating user engagement and experience.
-Bootstrap: Leveraging the power of this CSS framework to create a mobile-first, responsive design with pre-built components and utilities.
+- HTML: The backbone of the website, providing the structure and content for each page.
+- CSS: Used for styling and layout, ensuring a visually appealing and responsive design.
+- JavaScript: Adding interactivity and dynamic elements, elevating user engagement and experience.
+- Bootstrap: Leveraging the power of this CSS framework to create a mobile-first, responsive design with pre-built components and utilities.
 
 
 
