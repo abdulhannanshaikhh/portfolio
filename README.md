@@ -28,7 +28,6 @@ HTML: The backbone of the website, providing the structure and content for each 
 CSS: Used for styling and layout, ensuring a visually appealing and responsive design.
 JavaScript: Adding interactivity and dynamic elements, elevating user engagement and experience.
 Bootstrap: Leveraging the power of this CSS framework to create a mobile-first, responsive design with pre-built components and utilities.
-By incorporating Bootstrap along with HTML, CSS, and JavaScript, I aim to create an immersive platform that offers visitors insight into my professional world and expertise in web development.
 
 
 
